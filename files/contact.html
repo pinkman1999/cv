@@ -1,0 +1,71 @@
+<html">
+<body style="background-color:lightGray ;">
+				
+				<form action="/action_page.php">
+                    <fieldset>
+                        <legend><h1>Details</legend></h1></legend>
+				<ol>
+					<li><p><b>Enter your name:</b></p> <br></li>
+  					<label for="fname">First name:</label>
+  					<input type="text" id="fname" name="fname" value="">
+  					<label for="lname">Last name:</label>
+ 					 <input type="text" id="lname" name="lname" value=""><br><br>
+                      <li><p><b>Choose you DOB:</b></p></li><br>
+                      <label for="birthday"></label>
+                      <input type="date" id="birthday" name="birthday"><br><br>
+
+					<li><p style="line-height: 2.5;"><b>Choose your gender:</b></p></li>
+					<input type="radio" id="male" name="gender" value="Male">
+  					<label for="male">Male</label>
+				  	<input type="radio" id="female" name="gender" value="Female">
+  					<label for="female">Female</label>
+  					<input type="radio" id="transgender" name="gender" value="Transgender">
+  					<label for="transgender">Transgender</label><br><br>
+					
+ 					 <li><label for="phone"><b>Enter your phone number:</b></label><br><br></li>
+ 					 <input type="tel" id="phone" name="Phone number" placeholder="10 digit Phone Number" pattern="[0-9]{10}" required>
+					
+					<br><br>
+ 					 
+					
+					<li><label for="email"><b>Enter your email:</b></label><br></li>
+					<input type="email" id="email" name="email" placeholder="abc@gmail.com">
+					
+					<br>
+
+					
+					<li><p><b>Address details</b></p></li>
+          				  <label for="adr">Address </label><br>
+           				 <input type="text" id="adr" name="address" placeholder="Dhar Road"><br>
+            			<label for="city"> City</label><br>
+           				 <input type="text" id="city" name="city" placeholder="Udhampur"><br>
+             			 
+              			  <label for="state">State</label><br>
+               			 <input type="text" id="state" name="state" placeholder="Jammu and Kashmir"><br>
+             			 
+             			 
+              			  <label for="zip">Pin code</label><br>
+                			<input type="text" id="zip" name="zip" placeholder="182101"><br>
+
+					<p><b>Note:-</b> Tick the following(s) if you have filled them.</p><br>
+					<input type="checkbox" id="name" name="name" value="Name">
+ 					 <label for="name">Name</label><br>
+ 					 <input type="checkbox" id="gender" name="gender" value="Gender">
+ 					 <label for="gender">Gender</label><br>
+					  <input type="checkbox" id="number" name="number" value="Number">
+  					<label for="number">Phone number</label><br>
+					<input type="checkbox" id="email" name="email" value="Email">
+ 					 <label for="email">Email</label><br>
+					<input type="checkbox" id="address" name="address" value="Address">
+ 					 <label for="address">Address</label><br>
+ 					 <input type="submit" value="Submit">
+                    <input type="reset" vaule="Reset">
+            
+          
+				</ol>
+
+				</form> 
+                </fieldset>
+
+</body>
+</html>
